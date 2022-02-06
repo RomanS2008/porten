@@ -1,0 +1,272 @@
+@media (max-width: 1310px)
+    .menu
+        justify-content: center
+        padding: 0
+        &_item
+            margin: 0 2em
+    header
+        padding: 0
+        justify-content: center
+    .header_logo
+        margin-right: 10px
+    .second
+        // display: fle
+        flex-direction: column
+        &_item_1
+            width: 100%
+        &_item_2
+            width: 100%
+            height: 445px
+            padding: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+    .footer
+        &_item
+            &_1
+                display: none
+@media (max-width: 1200px)
+    .product
+        height: 1223px
+    .item
+        &_round
+            width: 221px
+            height: 285px
+@media (max-width: 1025px)
+    .brends
+        &_wrapper
+            &_item
+                margin: 0 24px
+            &_item img
+                width: 200px
+                height: auto
+@media (max-width: 991px)
+    .product
+        height: 1128px
+    .item
+        &_round
+            width: 185px
+            height: 257px
+    .brends
+        &_wrapper
+            &_item
+                margin: 0 5px
+    .third
+        flex-direction: column-reverse
+        width: 100%
+        &_item
+            &_1
+                width: 100%
+                height: 400px
+            &_2
+                // background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.86)), url('../img/old-collection.jpg'), center (center/cover) no-repeat, #000000
+                width: 100%
+@media (max-width: 768px)
+    .second
+        &_item_1
+            padding: 32px 0
+            height: 595px
+    .new_season
+        &_round
+            width: 211px
+            height: 267px
+        &_item
+            margin: 0 11px
+    .product 
+        padding: 60px 0
+        height: 989px
+    .item
+        &_round
+            width: 153px
+            height: 220px
+        &_round img
+            width: 154px
+        &_descr
+            &_brend
+                font-size: 16px
+            &_price
+                font-size: 14px
+    .brends
+        &_wrapper
+            &_item img
+                width: 158px
+    .footer
+        &_item_3
+            margin: 0 15px
+
+@media (max-width: 576px)
+    .menu
+        &_item
+            margin: 0 10px
+    .time
+        font-size: 10px
+    .header
+        &_item
+            display: none
+        &_logo
+            margin-top: 0
+            margin-right: 0
+            margin-left: 30px
+    header
+        position: relative
+        display: flex
+        // flex-direction: column
+        justify-content: flex-start
+        align-items: center
+    .hamburger
+        position: absolute
+        top: 60%
+        right: 10%
+        display: block
+        transform: translateY(-50%)
+        width: 30px
+        height: 30px 
+        span
+            display: block
+            height: 1px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 5px
+            transition: 0.5s all
+        &_active
+                span 
+                    margin-bottom: -2px 
+                    &:nth-child(1)
+                        transform: translateY(2px) rotate(-50deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(50deg)
+    .li
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100%
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        justify-content: start
+        align-items: center
+        padding-top: 150px 
+        &_active
+            left: 0
+        &_ul
+            display: block
+            font-family: PT Sans
+            font-weight: normal
+            font-size: 14px
+            text-transform: uppercase
+            color: #ffffff
+            &_active
+                display: block
+    .promo
+        min-height: 376px
+        &_subheader
+            display: none
+    .second_item_1
+        min-height: 1430px
+        padding: 32px 0 50px 0
+    .new_season
+        &_wrapper
+            flex-direction: column
+            margin: 0 auto
+            margin-top: 50px
+        &_item
+            display: block
+            margin: 0 auto
+            &_mt
+                margin-top: 40px
+        &_round
+            width: 319px
+            height: 286px
+            img
+                width: 241px
+    .product
+        min-height: 3150px
+        &_wrapper
+            flex-direction: column
+    .item
+        display: block
+        margin: 0 auto
+        &_mt
+            margin-top: 40px
+        &_round
+            width: 298px
+            height: 236px
+            img
+                width: 217px
+    .brends
+        min-height: 300px
+        &_wrapper
+            &_item
+                img
+                    width: 110px
+    .footer
+        flex-direction: column
+        &_item
+            display: block
+            margin: 0 auto
+            &_1
+                display: none
+            &_3
+                display: block
+                margin: 0 auto
+                margin-top: 50px    
+    .categories_round
+        border: 1px solid #fff
+    
+@media (max-width: 425px)
+    .menu
+        flex-direction: column
+        height: 72px
+        &_item
+            img
+                margin-right: 10px
+            &_mt
+                margin-top: 20px
+    .time
+        font-size: 13px
+    .login
+        font-size: 13px
+    .third
+        &_item_2
+            padding: 60px 0 0 0
+            height: 480px
+    .old_descr
+        font-size: 12px
+    .old_btn
+        margin-top: 40px
+    .brends
+        &_wrapper
+            flex-direction: column
+            &_item img
+                width: 225px
+@media (max-width: 375px)
+    .time
+        font-size: 11px
+    .li
+        width: 75%
+    .promo
+        padding: 40px 0
+        min-height: 417px
+        &_reacth
+            width: 300px
+            height: 300px
+    .new
+        font-size: 30px
+        &_btn
+            font-size: 18px
+    .old_descr
+        font-size: 9px
+    .footer_item
+        &_descr
+            display: none
+    input
+        width: 160px
+    .categories_round
+        margin: 0 10px
+    .categories_wrapper_2
+        margin-top: 20px
+
